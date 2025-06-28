@@ -1,9 +1,9 @@
 import Button from '../../common/Button/Button';
-import content from '../../../data/content.json';
+import homeData from '../../../data/home.json';
 import './HeroSection.css';
 
 const HeroSection = () => {
-  const { hero } = content.home;
+  const { hero } = homeData.home;
 
   return (
     <section className="hero-section" style={{ backgroundImage: `url(/images/placeholder/hero-bg.jpg)` }}>

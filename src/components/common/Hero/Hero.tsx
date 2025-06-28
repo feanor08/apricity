@@ -19,7 +19,7 @@ const Hero = ({
   description,
   backgroundImage,
   overlay = true,
-  size = 'full',          // NEW
+  size = 'compact',          // NEW
   children,
   className = '',
 }: HeroProps) => {

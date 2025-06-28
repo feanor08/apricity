@@ -1,9 +1,9 @@
 import Section from '../../common/Section/Section';
-import content from '../../../data/content.json';
+import homeData from '../../../data/home.json';
 import './ImpactSection.css';
 
 const ImpactSection = () => {
-  const { impact } = content.home;
+  const { impact } = homeData.home;
 
   return (
     <Section title={impact.title} background="accent" className="impact-section">

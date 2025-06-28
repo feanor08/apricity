@@ -1,11 +1,11 @@
 import Section from '../../common/Section/Section';
 import Quote from '../../common/Quote/Quote';
-import content from '../../../data/content.json';
+import homeData from '../../../data/home.json';
 import './AboutSection.css';
 
 const AboutSection = () => {
-  const { about } = content.home;
-  const { quotes } = content;
+  const { about } = homeData.home;
+  const { quotes } = homeData;
   const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
 
   return (

@@ -1,11 +1,11 @@
 import Section from '../../common/Section/Section';
 import Card from '../../common/Card/Card';
 import Button from '../../common/Button/Button';
-import content from '../../../data/content.json';
+import homeData from '../../../data/home.json';
 import './CTASection.css';
 
 const CTASection = () => {
-  const { joinMovement } = content.home;
+  const { joinMovement } = homeData.home;
 
   return (
     <Section title={joinMovement.title} background="white" className="cta-section">

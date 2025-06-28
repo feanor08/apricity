@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Navigation from '../Navigation/Navigation';
-import content from '../../../data/content.json';
+import orgData from '../../../data/organization.json';
 import './Header.css';
 
 const Header = () => {
@@ -12,7 +12,7 @@ const Header = () => {
       <div className="container">
         <div className="header-content">
           <Link to="/" className="logo">
-            <h1>{content.organization.name}</h1>
+            <h1>{orgData.organization.name}</h1>
           </Link>
           <button 
             className="mobile-menu-toggle"

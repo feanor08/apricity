@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom';
-import content from '../../../data/content.json';
+import orgData from '../../../data/organization.json';
 import navigationData from '../../../data/navigation.json';
 import './Footer.css';
 
 const Footer = () => {
-  const { organization } = content;
+  const { organization } = orgData;
 
   return (
     <footer className="footer">
