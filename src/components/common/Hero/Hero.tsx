@@ -7,22 +7,26 @@ interface HeroProps {
   description?: string;
   backgroundImage?: string;
   overlay?: boolean;
+  /** 100 vh landing hero (default) or ~40 vh compact header */
+  size?: 'full' | 'compact';
   children?: ReactNode;
   className?: string;
 }
 
-const Hero = ({ 
-  title, 
-  subtitle, 
-  description, 
-  backgroundImage, 
-  overlay = true, 
-  children, 
-  className = '' 
+const Hero = ({
+  title,
+  subtitle,
+  description,
+  backgroundImage,
+  overlay = true,
+  size = 'full',          // NEW
+  children,
+  className = '',
 }: HeroProps) => {
   return (
-    <section 
-      className={`hero ${className}`}
+    <section
+      /* hero + size modifier + any extra className you pass in */
+      className={`hero hero--${size} ${className}`}
       style={backgroundImage ? { backgroundImage: `url(${backgroundImage})` } : undefined}
     >
       {overlay && <div className="hero-overlay" />}

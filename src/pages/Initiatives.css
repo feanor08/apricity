@@ -197,3 +197,11 @@
       align-items: center;
     }
   }
+
+  .page :global(.hero) {
+    min-height: 40vh;        /* shrink the hero */
+  }
+  
+  .page :global(.heroOverlay) {
+    z-index: -1;             /* push tint behind later sections */
+  }

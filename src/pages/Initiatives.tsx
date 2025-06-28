@@ -6,6 +6,7 @@ import Button from '../components/common/Button/Button';
 import initiativesData from '../data/initiatives.json';
 import './Initiatives.css';
 
+
 const Initiatives = () => {
   const [selectedCategory, setSelectedCategory] = useState('all');
   const { initiatives } = initiativesData;
@@ -17,8 +18,9 @@ const Initiatives = () => {
     : initiatives.filter(item => item.category === selectedCategory);
 
   return (
-    <>
+    <main >
       <Hero
+        size='compact'
         title="Our Initiatives"
         subtitle="Transforming lives through sustainable development"
         description="We believe in creating lasting change through community-driven programs that empower, educate, and elevate."
@@ -108,7 +110,7 @@ const Initiatives = () => {
           </div>
         </div>
       </Section>
-    </>
+    </main>
   );
 };
 
