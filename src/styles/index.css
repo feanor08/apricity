@@ -1,0 +1,141 @@
+@import './variables.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-off-white);
+  color: var(--color-dark-gray);
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-earth-brown);
+  line-height: 1.2;
+  margin-bottom: var(--spacing-md);
+}
+
+h1 {
+  font-size: var(--font-5xl);
+}
+
+h2 {
+  font-size: var(--font-4xl);
+}
+
+h3 {
+  font-size: var(--font-3xl);
+}
+
+h4 {
+  font-size: var(--font-2xl);
+}
+
+h5 {
+  font-size: var(--font-xl);
+}
+
+h6 {
+  font-size: var(--font-lg);
+}
+
+p {
+  margin-bottom: var(--spacing-md);
+}
+
+a {
+  color: var(--color-earth-brown);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+a:hover {
+  color: var(--color-sunset-orange);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-lg);
+}
+
+.section {
+  padding: var(--spacing-3xl) 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: var(--spacing-md) var(--spacing-xl);
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  text-align: center;
+  transition: all var(--transition-normal);
+  cursor: pointer;
+  border: none;
+  font-size: var(--font-base);
+}
+
+.btn-primary {
+  background-color: var(--color-sunset-orange);
+  color: var(--color-white);
+}
+
+.btn-primary:hover {
+  background-color: var(--color-leaf-green);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.btn-secondary {
+  background-color: var(--color-mustard-yellow);
+  color: var(--color-white);
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-leaf-green);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.quote {
+  padding: var(--spacing-xl);
+  background-color: rgba(60, 76, 114, 0.1);
+  border-left: 4px solid var(--color-indigo-blue);
+  font-style: italic;
+  color: var(--color-indigo-blue);
+  margin: var(--spacing-xl) 0;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: var(--font-4xl);
+  }
+  
+  h2 {
+    font-size: var(--font-3xl);
+  }
+  
+  h3 {
+    font-size: var(--font-2xl);
+  }
+  
+  .container {
+    padding: 0 var(--spacing-md);
+  }
+  
+  .section {
+    padding: var(--spacing-2xl) 0;
+  }
+}

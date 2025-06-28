@@ -1,0 +1,201 @@
+{
+    "featuredUpdate": {
+      "id": "featured-1",
+      "title": "Breaking Barriers: 1000 Women Entrepreneurs and Counting",
+      "excerpt": "We've reached a incredible milestone - over 1000 tribal women have completed our entrepreneurship program and are now running their own businesses. This journey of transformation showcases the power of community-driven development and the resilience of tribal women who are rewriting their own stories.",
+      "category": "Success Story",
+      "author": "Team Apricity",
+      "date": "2024-12-15",
+      "image": "/images/placeholder/featured-update.jpg",
+      "content": "Full article content here..."
+    },
+    "recentUpdates": [
+      {
+        "id": "update-1",
+        "title": "New Heritage Craft Center Opens in Karnataka Village",
+        "excerpt": "Our latest heritage craft center in Hunsur village will serve as a hub for preserving traditional weaving techniques while creating sustainable livelihoods for 50 women artisans.",
+        "category": "Program Launch",
+        "author": "Priya Sharma",
+        "date": "2024-12-10",
+        "image": "/images/placeholder/update-1.jpg"
+      },
+      {
+        "id": "update-2",
+        "title": "Partnership with State Bank for Microfinance Support",
+        "excerpt": "We're excited to announce our partnership with State Bank of India to provide collateral-free loans to women entrepreneurs in our network, making business expansion more accessible.",
+        "category": "Partnership",
+        "author": "Admin",
+        "date": "2024-12-05",
+        "image": "/images/placeholder/update-2.jpg"
+      },
+      {
+        "id": "update-3",
+        "title": "From Field to Fashion: Our Sustainable Textile Journey",
+        "excerpt": "Follow the journey of organic cotton from tribal farms to beautiful handwoven fabrics. Meet the women who are revolutionizing sustainable fashion one thread at a time.",
+        "category": "Impact Story",
+        "author": "Meera Patel",
+        "date": "2024-11-28",
+        "image": "/images/placeholder/update-3.jpg"
+      },
+      {
+        "id": "update-4",
+        "title": "Children's Education Program Achieves 95% School Enrollment",
+        "excerpt": "Our holistic approach to family empowerment is showing results - children in our partner villages now have a 95% school enrollment rate, up from just 60% three years ago.",
+        "category": "Success Story",
+        "author": "Rajesh Kumar",
+        "date": "2024-11-20",
+        "image": "/images/placeholder/update-4.jpg"
+      },
+      {
+        "id": "update-5",
+        "title": "Diwali Mela: Celebrating Crafts and Community",
+        "excerpt": "Our annual Diwali Mela brought together over 200 artisans, showcasing their products to urban markets. The event generated record sales and connected artisans directly with customers.",
+        "category": "Event",
+        "author": "Team Apricity",
+        "date": "2024-11-15",
+        "image": "/images/placeholder/update-5.jpg"
+      },
+      {
+        "id": "update-6",
+        "title": "Natural Dyeing Workshop Revives Ancient Techniques",
+        "excerpt": "Master artisan Kamala Devi conducted a week-long workshop on natural dyeing using indigenous plants. 30 women learned techniques that were on the verge of being forgotten.",
+        "category": "Workshop",
+        "author": "Sunita Rao",
+        "date": "2024-11-10",
+        "image": "/images/placeholder/update-6.jpg"
+      },
+      {
+        "id": "update-7",
+        "title": "Healthcare Camp Reaches 500 Families in Remote Villages",
+        "excerpt": "Our monthly healthcare camp in partnership with local hospitals provided free check-ups, medicines, and health education to families who previously had no access to medical facilities.",
+        "category": "Community",
+        "author": "Dr. Arun Mehta",
+        "date": "2024-11-05",
+        "image": "/images/placeholder/update-7.jpg"
+      },
+      {
+        "id": "update-8",
+        "title": "Young Changemakers: Meet the Next Generation Leaders",
+        "excerpt": "Children of our women entrepreneurs are breaking stereotypes and pursuing higher education. Meet three young women who are the first in their villages to attend college.",
+        "category": "Impact Story",
+        "author": "Anita Desai",
+        "date": "2024-10-30",
+        "image": "/images/placeholder/update-8.jpg"
+      },
+      {
+        "id": "update-9",
+        "title": "Eco-Friendly Pet Products Line Launches Nationally",
+        "excerpt": "Our innovative pet products made by tribal artisans are now available across India through major e-commerce platforms, creating a unique market opportunity for our communities.",
+        "category": "Program Launch",
+        "author": "Team Apricity",
+        "date": "2024-10-25",
+        "image": "/images/placeholder/update-9.jpg"
+      }
+    ],
+    "upcomingEvents": [
+      {
+        "id": "event-1",
+        "title": "Annual Crafts Exhibition 2025",
+        "type": "Exhibition",
+        "date": "2025-01-15",
+        "location": "Bangalore Convention Center",
+        "description": "Showcase of traditional and contemporary crafts by our artisan network. Open to public and buyers."
+      },
+      {
+        "id": "event-2",
+        "title": "Volunteer Orientation Program",
+        "type": "Volunteer Event",
+        "date": "2025-01-20",
+        "location": "Apricity Office, Bangalore",
+        "description": "Introduction session for new volunteers interested in joining our programs and initiatives."
+      },
+      {
+        "id": "event-3",
+        "title": "Women Entrepreneurs Summit",
+        "type": "Conference",
+        "date": "2025-02-08",
+        "location": "Virtual Event",
+        "description": "Connect with successful women entrepreneurs from our network and learn from their journeys."
+      },
+      {
+        "id": "event-4",
+        "title": "Heritage Craft Workshop Series",
+        "type": "Workshop",
+        "date": "2025-02-15",
+        "location": "Multiple Villages",
+        "description": "Month-long workshop series on traditional weaving, pottery, and natural dyeing techniques."
+      }
+    ],
+    "categories": [
+      "Success Story",
+      "Program Launch",
+      "Partnership",
+      "Impact Story",
+      "Event",
+      "Workshop",
+      "Community"
+    ],
+    "newsletter": {
+      "title": "Stay Connected with Our Journey",
+      "description": "Get monthly updates about our work, impact stories, and ways to get involved delivered straight to your inbox.",
+      "frequency": "Monthly",
+      "subscriberCount": "2,500+"
+    },
+    "mediaKit": {
+      "pressReleases": [
+        {
+          "title": "Apricity Life Foundation Reaches 1000 Women Entrepreneurs Milestone",
+          "date": "2024-12-15",
+          "link": "/media/press-release-1"
+        },
+        {
+          "title": "Partnership Announcement: State Bank Microfinance Initiative",
+          "date": "2024-12-05",
+          "link": "/media/press-release-2"
+        }
+      ],
+      "mediaContacts": {
+        "primary": {
+          "name": "Priya Sharma",
+          "role": "Communications Director",
+          "email": "media@apricitylifefoundation.org",
+          "phone": "+91-8208963075"
+        }
+      }
+    },
+    "socialMedia": {
+      "platforms": [
+        {
+          "name": "Facebook",
+          "handle": "@ApricityLife",
+          "url": "https://facebook.com/apricitylife",
+          "followers": "5.2K"
+        },
+        {
+          "name": "Instagram",
+          "handle": "@apricitylife_foundation",
+          "url": "https://instagram.com/apricitylife_foundation",
+          "followers": "3.8K"
+        },
+        {
+          "name": "Twitter",
+          "handle": "@ApricityLife",
+          "url": "https://twitter.com/apricitylife",
+          "followers": "2.1K"
+        },
+        {
+          "name": "LinkedIn",
+          "handle": "Apricity Life Foundation",
+          "url": "https://linkedin.com/company/apricity-life-foundation",
+          "followers": "1.5K"
+        }
+      ],
+      "hashtags": [
+        "#ApricityLife",
+        "#TribalEmpowerment",
+        "#WomenEntrepreneurs",
+        "#SustainableLivelihoods",
+        "#HeritageRevival"
+      ]
+    }
+  }

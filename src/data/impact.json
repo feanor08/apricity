@@ -1,0 +1,198 @@
+{
+    "statistics": [
+      {
+        "value": "1000+",
+        "label": "Women Empowered",
+        "description": "Tribal women trained in various skills and now earning sustainable income",
+        "icon": "👩"
+      },
+      {
+        "value": "20+",
+        "label": "Villages Reached",
+        "description": "Communities transformed through our holistic development programs",
+        "icon": "🏘️"
+      },
+      {
+        "value": "5",
+        "label": "Heritage Crafts",
+        "description": "Traditional crafts revived and preserved for future generations",
+        "icon": "🎨"
+      },
+      {
+        "value": "10,000+",
+        "label": "Lives Touched",
+        "description": "Direct and indirect beneficiaries including families and children",
+        "icon": "❤️"
+      },
+      {
+        "value": "95%",
+        "label": "School Enrollment",
+        "description": "Children in our partner communities now attending school regularly",
+        "icon": "📚"
+      },
+      {
+        "value": "300+",
+        "label": "Micro-Enterprises",
+        "description": "Small businesses started by women entrepreneurs we've trained",
+        "icon": "💼"
+      }
+    ],
+    "stories": [
+      {
+        "id": "story-1",
+        "title": "From Homemaker to Entrepreneur",
+        "author": "Lakshmi, Tribal Artisan",
+        "content": "Before joining Apricity's training program, I had never imagined I could earn my own income. Today, I run a small business making eco-friendly toys and bags. I employ 5 other women from my village. My children now go to a good school, and I've been able to renovate our home. The confidence I've gained is even more valuable than the money.",
+        "image": "/images/placeholder/story-1.jpg",
+        "date": "2024-01-15"
+      },
+      {
+        "id": "story-2",
+        "title": "Reviving Our Heritage",
+        "author": "Kamala, Master Weaver",
+        "content": "Our traditional weaving patterns were dying. Only a few elderly women knew the techniques, and young people weren't interested. Apricity helped us see the value in our heritage. They connected us with urban markets where people appreciate handmade products. Now, young women are eager to learn, and our craft will live on.",
+        "image": "/images/placeholder/story-2.jpg",
+        "date": "2024-02-20"
+      },
+      {
+        "id": "story-3",
+        "title": "A Village Transformed",
+        "author": "Ravi, Village Leader",
+        "content": "When Apricity first came to our village, we were skeptical. We had seen many organizations come and go. But they were different - they listened to us, involved us in planning, and stayed committed. Today, our women are earning, our children are studying, and we have basic healthcare. The entire atmosphere of our village has changed.",
+        "image": "/images/placeholder/story-3.jpg",
+        "date": "2024-03-10"
+      },
+      {
+        "id": "story-4",
+        "title": "Education Changes Everything",
+        "author": "Priya, Student",
+        "content": "My mother joined Apricity's program when I was 10. Before that, we struggled to afford school supplies. Now, not only can she pay for my education, but she's also saving for my college. She tells me I can become anything I want - a doctor, a teacher, or even run my own business like her. That hope means everything.",
+        "image": "/images/placeholder/story-4.jpg",
+        "date": "2024-04-05"
+      }
+    ],
+    "milestones": [
+      {
+        "year": "2021",
+        "achievement": "Apricity Life Foundation established with a vision to empower tribal communities"
+      },
+      {
+        "year": "2022",
+        "achievement": "First 100 women complete skill training program; 3 villages adopted"
+      },
+      {
+        "year": "2023",
+        "achievement": "Heritage craft center inaugurated; Partnership with state government begins"
+      },
+      {
+        "year": "2024",
+        "achievement": "Reached 1000+ direct beneficiaries; Launched sustainable textiles initiative"
+      },
+      {
+        "year": "2025",
+        "achievement": "Expanded to 20 villages; First tribal fashion line launched nationally"
+      }
+    ],
+    "impactAreas": {
+      "economic": {
+        "title": "Economic Empowerment",
+        "metrics": [
+          {
+            "label": "Average income increase",
+            "value": "300%"
+          },
+          {
+            "label": "Women with bank accounts",
+            "value": "98%"
+          },
+          {
+            "label": "Families above poverty line",
+            "value": "85%"
+          }
+        ]
+      },
+      "social": {
+        "title": "Social Development",
+        "metrics": [
+          {
+            "label": "Women in leadership roles",
+            "value": "45%"
+          },
+          {
+            "label": "Domestic violence reduction",
+            "value": "60%"
+          },
+          {
+            "label": "Community participation",
+            "value": "90%"
+          }
+        ]
+      },
+      "education": {
+        "title": "Educational Impact",
+        "metrics": [
+          {
+            "label": "Girl child enrollment",
+            "value": "100%"
+          },
+          {
+            "label": "School dropout reduction",
+            "value": "75%"
+          },
+          {
+            "label": "Higher education pursuit",
+            "value": "40%"
+          }
+        ]
+      }
+    },
+    "testimonials": [
+      {
+        "quote": "Apricity doesn't just give us fish; they teach us how to fish and help us find the pond.",
+        "author": "Meera, Beneficiary"
+      },
+      {
+        "quote": "The dignity of earning our own income has transformed not just our bank accounts but our entire community's mindset.",
+        "author": "Sunita, Artisan Group Leader"
+      },
+      {
+        "quote": "My daughter now dreams of becoming a doctor. That wasn't even imaginable before.",
+        "author": "Rajesh, Parent"
+      }
+    ],
+    "partners": [
+      {
+        "name": "State Rural Development Department",
+        "type": "Government"
+      },
+      {
+        "name": "National Bank for Agriculture and Rural Development",
+        "type": "Financial Institution"
+      },
+      {
+        "name": "Crafts Council of India",
+        "type": "Industry Body"
+      },
+      {
+        "name": "Various CSR Partners",
+        "type": "Corporate"
+      }
+    ],
+    "awards": [
+      {
+        "year": "2023",
+        "title": "Social Impact Award",
+        "givenBy": "State NGO Federation"
+      },
+      {
+        "year": "2024",
+        "title": "Best Women Empowerment Initiative",
+        "givenBy": "National Commission for Women"
+      },
+      {
+        "year": "2024",
+        "title": "Sustainable Development Excellence",
+        "givenBy": "UN Global Compact Network India"
+      }
+    ]
+  }

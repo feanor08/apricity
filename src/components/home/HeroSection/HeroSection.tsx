@@ -1,0 +1,28 @@
+import Button from '../../common/Button/Button';
+import content from '../../../data/content.json';
+import './HeroSection.css';
+
+const HeroSection = () => {
+  const { hero } = content.home;
+
+  return (
+    <section className="hero-section" style={{ backgroundImage: `url(/images/placeholder/hero-bg.jpg)` }}>
+      <div className="hero-overlay" />
+      <div className="container">
+        <div className="hero-content">
+          <h1 className="hero-title">{hero.title}</h1>
+          <h2 className="hero-subtitle">{hero.subtitle}</h2>
+          <p className="hero-description">{hero.description}</p>
+          <div className="hero-buttons">
+            <Button to="/get-involved">{hero.cta1}</Button>
+            <Button to="/about-us" variant="secondary">
+              {hero.cta2}
+            </Button>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default HeroSection;

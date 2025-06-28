@@ -1,0 +1,130 @@
+{
+    "main": [
+      {
+        "label": "Home",
+        "path": "/"
+      },
+      {
+        "label": "Initiatives",
+        "path": "/initiatives"
+      },
+      {
+        "label": "Impact",
+        "path": "/impact"
+      },
+      {
+        "label": "Get Involved",
+        "path": "/get-involved",
+        "children": [
+          {
+            "label": "Collection Camps",
+            "path": "/get-involved/collection-camps"
+          },
+          {
+            "label": "Dropping Centers",
+            "path": "/get-involved/dropping-centers"
+          },
+          {
+            "label": "Volunteer",
+            "path": "/get-involved/volunteer"
+          },
+          {
+            "label": "Partner with us",
+            "path": "/get-involved/partner"
+          },
+          {
+            "label": "Career",
+            "path": "/get-involved/career"
+          },
+          {
+            "label": "Internship",
+            "path": "/get-involved/internship"
+          }
+        ]
+      },
+      {
+        "label": "Updates",
+        "path": "/updates"
+      },
+      {
+        "label": "About Us",
+        "path": "/about-us"
+      },
+      {
+        "label": "Contribute",
+        "path": "/contribute"
+      }
+    ],
+    "footer": {
+      "sections": [
+        {
+          "title": "About",
+          "links": [
+            {
+              "label": "Our Story",
+              "path": "/about-us"
+            },
+            {
+              "label": "Mission & Vision",
+              "path": "/about-us#mission"
+            },
+            {
+              "label": "Our Team",
+              "path": "/about-us#team"
+            }
+          ]
+        },
+        {
+          "title": "Programs",
+          "links": [
+            {
+              "label": "Women Empowerment",
+              "path": "/initiatives#women-empowerment"
+            },
+            {
+              "label": "Heritage Crafts",
+              "path": "/initiatives#heritage-crafts"
+            },
+            {
+              "label": "Community Development",
+              "path": "/initiatives#community-development"
+            }
+          ]
+        },
+        {
+          "title": "Get Involved",
+          "links": [
+            {
+              "label": "Volunteer",
+              "path": "/get-involved/volunteer"
+            },
+            {
+              "label": "Partner",
+              "path": "/get-involved/partner"
+            },
+            {
+              "label": "Donate",
+              "path": "/contribute"
+            }
+          ]
+        },
+        {
+          "title": "Connect",
+          "links": [
+            {
+              "label": "Contact Us",
+              "path": "/contact"
+            },
+            {
+              "label": "Newsletter",
+              "path": "#newsletter"
+            },
+            {
+              "label": "Updates",
+              "path": "/updates"
+            }
+          ]
+        }
+      ]
+    }
+  }
