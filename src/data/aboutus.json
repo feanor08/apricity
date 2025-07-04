@@ -1,9 +1,39 @@
 {
-    "aboutUs": {
-      "hero": {
-        "title": "About Us",
-        "subtitle": "We began with a single conviction: tribal women deserve work that sustains both their families and their heritage. In villages where ancient weaving songs were fading and textile waste piled high, we saw an opportunity to rewrite the tune. So we launched Apricity Life Foundation—a grassroots NGO that intercepts discarded cloth, revives ancestral crafts, and channels the profits straight into the hands of the women who create each piece. Turning what the world called waste into fair wages, school fees, and newfound confidence. Every upcycled toy, pet bed, or hand-dyed fabric we ship is more than a product; it’s proof that when tribal women lead the value chain, whole communities rise. Join us as we weave sustainable income into every thread—and empowerment into every life we touch.",
-        "backgroundImage": "/images/placeholder/about-hero.jpg"
-      }
+  "aboutUs": {
+    "hero": {
+      "title": "About Us",
+      "subtitle": "We began with a single conviction: tribal women deserve work that sustains both their families and their heritage. In villages where ancient weaving songs were fading and textile waste piled high, we saw an opportunity to rewrite the tune. So we launched Apricity Life Foundation—a grassroots NGO that intercepts discarded cloth, revives ancestral crafts, and channels the profits straight into the hands of the women who create each piece. Turning what the world called waste into fair wages, school fees, and newfound confidence. Every upcycled toy, pet bed, or hand-dyed fabric we ship is more than a product; it’s proof that when tribal women lead the value chain, whole communities rise. Join us as we weave sustainable income into every thread—and empowerment into every life we touch.",
+      "backgroundImage": "/images/placeholder/about-hero.jpg"
+    },
+    "missionVision": {
+      "title": "Our Mission and Vision",
+      "content": [
+        "At Apricity Life Foundation, we believe that true change begins when the most underserved communities are given the tools to stand on their own feet—with pride, purpose, and possibility. Our work is rooted in the heartlands of India, where generations of tribal women have held knowledge, craft, and resilience in their hands—but have often been denied opportunities for economic freedom.",
+        "Our mission is to create sustainable, dignified livelihoods for tribal and rural communities by reviving traditional skills, nurturing local ecosystems, and enabling self-sufficiency at the village level. We work hand-in-hand with women artisans to transform discarded textiles into handcrafted products—each piece a symbol of circular design, care for the Earth, and a future woven with dignity.",
+        "Through training, fair wages, and community-based entrepreneurship, we are building economic pathways that allow families to stay rooted in their land, language, and legacy. No longer forced to migrate for survival, they become entrepreneurs, innovators, and torchbearers of ancestral knowledge.",
+        "We envision vibrant communities where every woman is valued as a changemaker, every household earns a stable income, and every craft carries forward the wisdom of generations. Apricity Life Foundation is not just about preserving heritage—it’s about reigniting it with purpose, and reimagining rural economies to be resilient, regenerative, and led by the people they serve. Together, we are stitching a new future—where livelihoods bloom close to home, and warmth becomes a way of life."
+      ]
+    },
+    "values": {
+      "title": "Our Values",
+      "content": [
+        "At Apricity Life Foundation, our values are rooted in the soil we stand on and the people we serve. We believe that dignity is non-negotiable—every human being deserves the chance to work, earn, and grow in an environment that respects their worth and honours their heritage.",
+        "Our work is shaped by the principle of community-led change: we do not impose solutions, we co-create them. By listening to the voices of tribal women and rural artisans, we ensure that every program we design emerges from lived experience and real needs.",
+        "We are deeply committed to the revival of craft—not just as a means of income, but as a powerful vessel of identity, culture, and pride. We believe that traditional skills are not relics of the past, but blueprints for a more resilient, grounded future.",
+        "Sustainability guides every decision we make. From repurposing discarded textiles to fostering circular systems and zero-waste processes, we align our livelihood creation with the wellbeing of the Earth.",
+        "We value self-sufficiency, not in isolation, but in connection. We nurture ecosystems of solidarity where individuals rise together, supported by collective strength and mutual respect.",
+        "And at the heart of everything we do is warmth. Just like the sun on a winter morning—Apricity—we strive to be a quiet source of comfort, consistency, and care. These values are not just principles—they are the threads that bind our purpose, our people, and our path forward."
+      ]
+    },
+    "principles": {
+      "title": "Our Design & Strategy Principles",
+      "content": [
+        "At Apricity Life Foundation, our design philosophy is guided by intention, inclusion, and impact. We design with purpose—to serve real needs, preserve traditional knowledge, and generate livelihoods that last.",
+        "Every product we co-create is a conversation between heritage and innovation: rooted in indigenous skill, adapted for today’s world, and made with dignity from discarded materials.",
+        "Our strategy is slow by choice and circular by design. We believe in building systems that are regenerative, not extractive—where waste is reimagined, and value is shared across every hand that touches the process.",
+        "Simplicity, transparency, and scalability shape our decisions, allowing us to grow without losing the soul of our mission.",
+        "Above all, our approach is human-centered: we design with and for the communities we serve, so every solution reflects their voice, honours their culture, and uplifts their future."
+      ]
     }
   }
+}
