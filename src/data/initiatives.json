@@ -22,7 +22,7 @@
       "description": "Equipping tribal women with marketable skills in handicrafts, natural dyeing, tailoring, and toy-making. We create sustainable income pathways through our social enterprise model.",
       "longDescription": "Our Women Empowerment Program is at the heart of our mission. We work with tribal women to develop skills that are not just marketable but also culturally relevant. Through intensive training in traditional crafts, modern techniques, and business skills, we help women become entrepreneurs in their own right.",
       "image": "/images/placeholder/women-empowerment.jpg",
-      "impact": "500+ women to be trained",
+      "impact": "1000+ women to be trained",
       "features": [
         "6-month comprehensive skill development program",
         "Microenterprise setup support",
@@ -42,7 +42,7 @@
       "description": "Preserving and reviving traditional tribal crafts including weaving, natural dyeing, bamboo work, and pottery. We ensure these ancient skills don't disappear.",
       "longDescription": "Our Heritage Crafts Revival initiative is a bridge between the past and the future. We work with master artisans to document, preserve, and teach traditional crafting techniques that have been passed down through generations. By creating market demand for these authentic products, we ensure these crafts remain economically viable.",
       "image": "/images/placeholder/heritage-crafts.jpg",
-      "impact": "5 traditional crafts revived",
+      "impact": "5 traditional crafts to be revived",
       "features": [
         "Documentation of traditional techniques",
         "Master artisan mentorship program",
@@ -63,7 +63,7 @@
       "description": "Comprehensive development programs focusing on education, healthcare, infrastructure, and youth engagement to create thriving communities.",
       "longDescription": "True development happens when entire communities grow together. Our holistic approach addresses multiple aspects of community life - from children's education to healthcare access, from clean water to sustainable agriculture. We believe in creating an ecosystem where every family can thrive.",
       "image": "/images/placeholder/community-dev.jpg",
-      "impact": "20 villages transformed",
+      "impact": "20 villages to be transformed",
       "features": [
         "Children's education support centers",
         "Mobile healthcare camps",
@@ -84,7 +84,7 @@
       "description": "Building an ethical textile value chain from farm to fashion, creating sustainable livelihoods while protecting the environment.",
       "longDescription": "We're reimagining the textile industry by creating a completely ethical and sustainable value chain. From organic cotton farming to natural dyeing, from handloom weaving to eco-friendly packaging - every step creates employment while caring for our planet.",
       "image": "/images/placeholder/sustainable-textiles.jpg",
-      "impact": "100+ artisans employed"
+      "impact": "100+ artisans to be employed"
     },
     {
       "id": "children-nutrition",

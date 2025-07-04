@@ -63,10 +63,6 @@
             {
               "label": "Mission & Vision",
               "path": "/about-us#mission"
-            },
-            {
-              "label": "Our Team",
-              "path": "/about-us#team"
             }
           ]
         },
@@ -110,14 +106,6 @@
             {
               "label": "Contact Us",
               "path": "/contact"
-            },
-            {
-              "label": "Newsletter",
-              "path": "#newsletter"
-            },
-            {
-              "label": "Updates",
-              "path": "/updates"
             }
           ]
         }
