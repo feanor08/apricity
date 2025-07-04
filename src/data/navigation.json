@@ -43,10 +43,6 @@
         ]
       },
       {
-        "label": "Updates",
-        "path": "/updates"
-      },
-      {
         "label": "About Us",
         "path": "/about-us"
       },

@@ -31,11 +31,7 @@ const Initiatives = () => {
         <div className="intro-content">
           <h2>Building a Better Tomorrow</h2>
           <p>
-            Our initiatives are designed to create a ripple effect of positive change. 
-            From empowering women with sustainable livelihoods to preserving ancient crafts 
-            and fostering holistic community development, each program is a step towards 
-            building resilient, self-sufficient communities.
-          </p>
+          We are building a self-reliant ecosystem that reimagines the entire textile value chain as a force for good—from farm to fiber, from loom to label. Every step is a chance to make a difference—socially, ethically, and sustainably. In a world that often overlooks the invisible hands behind our clothes, everyday products , we bring those hands to the center of the story.          </p>
         </div>
       </Section>
 
@@ -63,7 +59,7 @@ const Initiatives = () => {
                 <span className="category-tag">{initiative.category}</span>
                 <p className="initiative-description">{initiative.description}</p>
                 <div className="impact-badge">
-                  <span>Impact: {initiative.impact}</span>
+                  <span>Aim: {initiative.impact}</span>
                 </div>
                 <Button to={`/initiatives/${initiative.id}`} variant="secondary">
                   Learn More

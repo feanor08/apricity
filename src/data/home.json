@@ -1,9 +1,11 @@
 {
   "home": {
+    "siteName": "Apricity Life Foundation",
+    "logo": "/assets/logo-apricity.svg",    
     "hero": {
       "title": "A movement of warmth. A journey of dignity.",
       "subtitle": "Empowering tribal women in South India through dignity-led development",
-      "description": "Apricity Life Foundation is a grassroots initiative working with tribal women in South India. Our focus is on dignity-led development—where empowerment is not a handout, but the right to thrive through one's own hands.",
+      "description": "Apricity Life Foundation is a grassroots initiative working with tribal women in  India. Our focus is on dignity-led development—where empowerment is not a handout, but the right to thrive through one's own hands.",
       "cta1": "Get Involved",
       "cta2": "Learn More"
     },
@@ -71,17 +73,17 @@
       "stats": [
         {
           "number": "1000+",
-          "label": "Tribal women trained",
+          "label": "Tribal women to be trained",
           "icon": "🌿"
         },
         {
           "number": "5+",
-          "label": "Heritage crafts revived",
+          "label": "Heritage crafts to be revived",
           "icon": "🧶"
         },
         {
           "number": "1000+",
-          "label": "Children supported indirectly",
+          "label": "Children to be supported indirectly",
           "icon": "🧒"
         },
         {
