@@ -2,29 +2,41 @@ import { useState } from 'react';
 import Hero from '../components/common/Hero/Hero';
 import Section from '../components/common/Section/Section';
 import Button from '../components/common/Button/Button';
-import updatesData from '../data/updates.json';
+import data from '../data/updates.json';
 import './Updates.css';
 
 const Updates = () => {
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [showNewsletter, setShowNewsletter] = useState(false);
-  
-  const { featuredUpdate, recentUpdates, upcomingEvents, categories } = updatesData;
-  
-  const filteredUpdates = selectedCategory === 'all' 
-    ? recentUpdates 
-    : recentUpdates.filter(update => update.category === selectedCategory);
+  const {
+    hero,
+    featuredUpdate,
+    recentUpdatesSection,
+    categories,
+    newsletterSection,
+    recentUpdates,
+    upcomingEventsSection,
+    upcomingEvents,
+    socialSection,
+    socialMedia,
+    archiveSection,
+    loadMoreLabel
+  } = data;
+
+  const filteredUpdates =
+    selectedCategory === 'all'
+      ? recentUpdates
+      : recentUpdates.filter(u => u.category === selectedCategory);
 
   return (
     <>
       <Hero
-        title="Updates & News"
-        subtitle="Stay connected with our journey"
-        description="Get the latest news, stories, and updates from our work in tribal communities across South India."
-        backgroundImage="/images/placeholder/updates-hero.jpg"
+        title={hero.title}
+        subtitle={hero.subtitle}
+        description={hero.description}
+        backgroundImage={hero.backgroundImage}
       />
 
-      {/* Featured Update */}
       <Section className="featured-section">
         <div className="featured-update">
           <div className="featured-image">
@@ -47,48 +59,48 @@ const Updates = () => {
         </div>
       </Section>
 
-      {/* Newsletter Signup */}
       <Section background="accent" className="newsletter-section">
         <div className="newsletter-content">
-          <h3>Stay Updated</h3>
-          <p>Get monthly updates about our work, impact stories, and ways to get involved.</p>
+          <h3>{newsletterSection.title}</h3>
+          <p>{newsletterSection.description}</p>
           {!showNewsletter ? (
-            <Button onClick={() => setShowNewsletter(true)}>Subscribe to Newsletter</Button>
+            <Button onClick={() => setShowNewsletter(true)}>
+              {newsletterSection.subscribeButton}
+            </Button>
           ) : (
-            <form className="newsletter-form" onSubmit={(e) => e.preventDefault()}>
-              <input type="email" placeholder="Enter your email" required />
+            <form className="newsletter-form" onSubmit={e => e.preventDefault()}>
+              <input
+                type="email"
+                placeholder={newsletterSection.formPlaceholder}
+                required
+              />
               <Button type="submit">Subscribe</Button>
             </form>
           )}
         </div>
       </Section>
 
-      {/* Recent Updates */}
       <Section background="white">
-        <h2>Recent Updates</h2>
-        
-        {/* Category Filter */}
+        <h2>{recentUpdatesSection.heading}</h2>
         <div className="category-filter">
           <button
             className={`filter-btn ${selectedCategory === 'all' ? 'active' : ''}`}
             onClick={() => setSelectedCategory('all')}
           >
-            All Updates
+            {recentUpdatesSection.allLabel}
           </button>
-          {categories.map((category) => (
+          {categories.map(cat => (
             <button
-              key={category}
-              className={`filter-btn ${selectedCategory === category ? 'active' : ''}`}
-              onClick={() => setSelectedCategory(category)}
+              key={cat}
+              className={`filter-btn ${selectedCategory === cat ? 'active' : ''}`}
+              onClick={() => setSelectedCategory(cat)}
             >
-              {category}
+              {cat}
             </button>
           ))}
         </div>
-
-        {/* Updates Grid */}
         <div className="updates-grid">
-          {filteredUpdates.map((update) => (
+          {filteredUpdates.map(update => (
             <article key={update.id} className="update-card">
               <div className="update-image">
                 <img src={update.image} alt={update.title} />
@@ -114,25 +126,22 @@ const Updates = () => {
             </article>
           ))}
         </div>
-
-        {/* Load More */}
         <div className="load-more">
-          <Button variant="secondary">Load More Updates</Button>
+          <Button variant="secondary">{loadMoreLabel}</Button>
         </div>
       </Section>
 
-      {/* Upcoming Events */}
       <Section className="events-section">
-        <h2>Upcoming Events</h2>
+        <h2>{upcomingEventsSection.heading}</h2>
         <div className="events-grid">
-          {upcomingEvents.map((event) => (
+          {upcomingEvents.map(event => (
             <div key={event.id} className="event-card">
               <div className="event-date">
-                <span className="event-day">
-                  {new Date(event.date).getDate()}
-                </span>
+                <span className="event-day">{new Date(event.date).getDate()}</span>
                 <span className="event-month">
-                  {new Date(event.date).toLocaleDateString('en-US', { month: 'short' })}
+                  {new Date(event.date).toLocaleDateString('en-US', {
+                    month: 'short'
+                  })}
                 </span>
               </div>
               <div className="event-details">
@@ -149,46 +158,30 @@ const Updates = () => {
         </div>
       </Section>
 
-      {/* Social Media Feed */}
       <Section background="white" className="social-section">
-        <h2>Follow Our Journey</h2>
-        <p className="social-subtitle">
-          Connect with us on social media for daily updates and behind-the-scenes content
-        </p>
+        <h2>{socialSection.heading}</h2>
+        <p className="social-subtitle">{socialSection.subtitle}</p>
         <div className="social-grid">
-          <div className="social-card">
-            <div className="social-icon">📘</div>
-            <h4>Facebook</h4>
-            <p>@ApricityLife</p>
-            <a href="#" className="social-link">Follow Us</a>
-          </div>
-          <div className="social-card">
-            <div className="social-icon">📷</div>
-            <h4>Instagram</h4>
-            <p>@apricitylife_foundation</p>
-            <a href="#" className="social-link">Follow Us</a>
-          </div>
-          <div className="social-card">
-            <div className="social-icon">🐦</div>
-            <h4>Twitter</h4>
-            <p>@ApricityLife</p>
-            <a href="#" className="social-link">Follow Us</a>
-          </div>
-          <div className="social-card">
-            <div className="social-icon">💼</div>
-            <h4>LinkedIn</h4>
-            <p>Apricity Life Foundation</p>
-            <a href="#" className="social-link">Connect</a>
-          </div>
+          {socialMedia.platforms.map((p, i) => (
+            <div key={i} className="social-card">
+              <div className="social-icon">{p.name.charAt(0)}</div>
+              <h4>{p.name}</h4>
+              <p>{p.handle}</p>
+              <a href={p.url} className="social-link">
+                Follow Us
+              </a>
+            </div>
+          ))}
         </div>
       </Section>
 
-      {/* Archive Section */}
       <Section className="archive-section">
         <div className="archive-content">
-          <h3>Looking for older updates?</h3>
-          <p>Browse our complete archive of news, stories, and updates from previous years.</p>
-          <Button to="/updates/archive" variant="secondary">View Archive</Button>
+          <h3>{archiveSection.title}</h3>
+          <p>{archiveSection.text}</p>
+          <Button to="/updates/archive" variant="secondary">
+            {archiveSection.buttonLabel}
+          </Button>
         </div>
       </Section>
     </>

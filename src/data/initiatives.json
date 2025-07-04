@@ -1,117 +1,155 @@
 {
-    "initiatives": [
-      {
-        "id": "women-empowerment",
-        "title": "Women Empowerment Program",
-        "category": "Economic Development",
-        "description": "Equipping tribal women with marketable skills in handicrafts, natural dyeing, tailoring, and toy-making. We create sustainable income pathways through our social enterprise model.",
-        "longDescription": "Our Women Empowerment Program is at the heart of our mission. We work with tribal women to develop skills that are not just marketable but also culturally relevant. Through intensive training in traditional crafts, modern techniques, and business skills, we help women become entrepreneurs in their own right.",
-        "image": "/images/placeholder/women-empowerment.jpg",
-        "impact": "500+ women to be trained",
-        "features": [
-          "6-month comprehensive skill development program",
-          "Microenterprise setup support",
-          "Financial literacy and digital payment training",
-          "Direct market linkage with urban buyers",
-          "Peer mentorship and support groups"
-        ],
-        "testimonial": {
-          "text": "Before joining Apricity, I was just a homemaker. Now I run a small business making eco-friendly toys and employ 5 other women from my village.",
-          "author": "Lakshmi, Program Graduate"
-        }
-      },
-      {
-        "id": "heritage-crafts",
-        "title": "Heritage Crafts \n Revival ",
-        "category": "Cultural Preservation",
-        "description": "Preserving and reviving traditional tribal crafts including weaving, natural dyeing, bamboo work, and pottery. We ensure these ancient skills don't disappear.",
-        "longDescription": "Our Heritage Crafts Revival initiative is a bridge between the past and the future. We work with master artisans to document, preserve, and teach traditional crafting techniques that have been passed down through generations. By creating market demand for these authentic products, we ensure these crafts remain economically viable.",
-        "image": "/images/placeholder/heritage-crafts.jpg",
-        "impact": "5 traditional crafts revived",
-        "features": [
-          "Documentation of traditional techniques",
-          "Master artisan mentorship program",
-          "Youth apprenticeship opportunities",
-          "Cultural heritage workshops",
-          "International craft exhibitions",
-          "Online marketplace for authentic crafts"
-        ],
-        "testimonial": {
-          "text": "Our weaving patterns were dying out. Apricity helped us not just preserve them but find buyers who value our authentic work.",
-          "author": "Kamala, Master Weaver"
-        }
-      },
-      {
-        "id": "community-development",
-        "title": "Holistic Community Development",
-        "category": "Community Welfare",
-        "description": "Comprehensive development programs focusing on education, healthcare, infrastructure, and youth engagement to create thriving communities.",
-        "longDescription": "True development happens when entire communities grow together. Our holistic approach addresses multiple aspects of community life - from children's education to healthcare access, from clean water to sustainable agriculture. We believe in creating an ecosystem where every family can thrive.",
-        "image": "/images/placeholder/community-dev.jpg",
-        "impact": "20 villages transformed",
-        "features": [
-          "Children's education support centers",
-          "Mobile healthcare camps",
-          "Clean water and sanitation projects",
-          "Community infrastructure development",
-          "Youth skill development programs",
-          "Sustainable agriculture training"
-        ],
-        "testimonial": {
-          "text": "Apricity didn't just help me - they transformed our entire village. Now our children go to school and we have access to basic healthcare.",
-          "author": "Ravi, Village Leader"
-        }
-      },
-      {
-        "id": "sustainable-textiles",
-        "title": "Sustainable Textiles Initiative",
-        "category": "Economic Development",
-        "description": "Building an ethical textile value chain from farm to fashion, creating sustainable livelihoods while protecting the environment.",
-        "longDescription": "We're reimagining the textile industry by creating a completely ethical and sustainable value chain. From organic cotton farming to natural dyeing, from handloom weaving to eco-friendly packaging - every step creates employment while caring for our planet.",
-        "image": "/images/placeholder/sustainable-textiles.jpg",
-        "impact": "100+ artisans employed",
-        "features": [
-          "Organic cotton cultivation training",
-          "Natural dye extraction workshops",
-          "Zero-waste production methods",
-          "Fair trade certification support",
-          "Eco-friendly packaging solutions",
-          "International market access"
-        ]
-      },
-      {
-        "id": "children-nutrition",
-        "title": "Children's Nutrition & Education",
-        "category": "Community Welfare",
-        "description": "Ensuring every child in our partner communities has access to nutritious food, quality education, and a bright future.",
-        "longDescription": "Children are the future of any community. Our comprehensive program ensures that no child goes hungry or misses out on education due to poverty. We work with mothers to create nutritious, locally-sourced meal programs while supporting children's educational needs.",
-        "image": "/images/placeholder/children-nutrition.jpg",
-        "impact": "1000+ children receiving daily nutrition",
-        "features": [
-          "Daily nutritious meal programs",
-          "School supply distribution",
-          "After-school tutoring centers",
-          "Parent education workshops",
-          "Health and hygiene training",
-          "Scholarship programs for higher education"
-        ]
-      },
-      {
-        "id": "pet-products",
-        "title": "Ethical Pet Products",
-        "category": "Innovation",
-        "description": "Creating India's first tribal-made ethical pet product line, combining traditional crafts with modern pet care needs.",
-        "longDescription": "Our innovative pet products initiative creates unique livelihood opportunities while spreading compassion for all beings. Tribal artisans craft beautiful, eco-friendly pet beds, toys, and accessories using traditional techniques and sustainable materials.",
-        "image": "/images/placeholder/pet-products.jpg",
-        "impact": "First tribal pet product line in India",
-        "features": [
-          "Handcrafted pet beds and toys",
-          "100% natural and safe materials",
-          "Customized product designs",
-          "Urban market partnerships",
-          "Online sales platform",
-          "Pet care awareness programs"
-        ]
+  "hero": {
+    "size": "compact",
+    "title": "Our Initiatives",
+    "subtitle": "Transforming lives through sustainable development",
+    "description": "We believe in creating lasting change through community-driven programs that empower, educate, and elevate.",
+    "backgroundImage": "/images/placeholder/initiatives-hero.jpg"
+  },
+  "intro": {
+    "title": "Building a Better Tomorrow",
+    "content": "We are building a self-reliant ecosystem that reimagines the entire textile value chain as a force for good—from farm to fiber, from loom to label. Every step is a chance to make a difference—socially, ethically, and sustainably. In a world that often overlooks the invisible hands behind our clothes, everyday products, we bring those hands to the center of the story."
+  },
+  "filter": {
+    "background": "white",
+    "allLabel": "All Initiatives"
+  },
+  "initiatives": [
+    {
+      "id": "women-empowerment",
+      "title": "Women Empowerment Program",
+      "category": "Economic Development",
+      "description": "Equipping tribal women with marketable skills in handicrafts, natural dyeing, tailoring, and toy-making. We create sustainable income pathways through our social enterprise model.",
+      "longDescription": "Our Women Empowerment Program is at the heart of our mission. We work with tribal women to develop skills that are not just marketable but also culturally relevant. Through intensive training in traditional crafts, modern techniques, and business skills, we help women become entrepreneurs in their own right.",
+      "image": "/images/placeholder/women-empowerment.jpg",
+      "impact": "500+ women to be trained",
+      "features": [
+        "6-month comprehensive skill development program",
+        "Microenterprise setup support",
+        "Financial literacy and digital payment training",
+        "Direct market linkage with urban buyers",
+        "Peer mentorship and support groups"
+      ],
+      "testimonial": {
+        "text": "Before joining Apricity, I was just a homemaker. Now I run a small business making eco-friendly toys and employ 5 other women from my village.",
+        "author": "Lakshmi, Program Graduate"
       }
+    },
+    {
+      "id": "heritage-crafts",
+      "title": "Heritage Crafts Revival",
+      "category": "Cultural Preservation",
+      "description": "Preserving and reviving traditional tribal crafts including weaving, natural dyeing, bamboo work, and pottery. We ensure these ancient skills don't disappear.",
+      "longDescription": "Our Heritage Crafts Revival initiative is a bridge between the past and the future. We work with master artisans to document, preserve, and teach traditional crafting techniques that have been passed down through generations. By creating market demand for these authentic products, we ensure these crafts remain economically viable.",
+      "image": "/images/placeholder/heritage-crafts.jpg",
+      "impact": "5 traditional crafts revived",
+      "features": [
+        "Documentation of traditional techniques",
+        "Master artisan mentorship program",
+        "Youth apprenticeship opportunities",
+        "Cultural heritage workshops",
+        "International craft exhibitions",
+        "Online marketplace for authentic crafts"
+      ],
+      "testimonial": {
+        "text": "Our weaving patterns were dying out. Apricity helped us not just preserve them but find buyers who value our authentic work.",
+        "author": "Kamala, Master Weaver"
+      }
+    },
+    {
+      "id": "community-development",
+      "title": "Holistic Community Development",
+      "category": "Community Welfare",
+      "description": "Comprehensive development programs focusing on education, healthcare, infrastructure, and youth engagement to create thriving communities.",
+      "longDescription": "True development happens when entire communities grow together. Our holistic approach addresses multiple aspects of community life - from children's education to healthcare access, from clean water to sustainable agriculture. We believe in creating an ecosystem where every family can thrive.",
+      "image": "/images/placeholder/community-dev.jpg",
+      "impact": "20 villages transformed",
+      "features": [
+        "Children's education support centers",
+        "Mobile healthcare camps",
+        "Clean water and sanitation projects",
+        "Community infrastructure development",
+        "Youth skill development programs",
+        "Sustainable agriculture training"
+      ],
+      "testimonial": {
+        "text": "Apricity didn't just help me - they transformed our entire village. Now our children go to school and we have access to basic healthcare.",
+        "author": "Ravi, Village Leader"
+      }
+    },
+    {
+      "id": "sustainable-textiles",
+      "title": "Sustainable Textiles Initiative",
+      "category": "Economic Development",
+      "description": "Building an ethical textile value chain from farm to fashion, creating sustainable livelihoods while protecting the environment.",
+      "longDescription": "We're reimagining the textile industry by creating a completely ethical and sustainable value chain. From organic cotton farming to natural dyeing, from handloom weaving to eco-friendly packaging - every step creates employment while caring for our planet.",
+      "image": "/images/placeholder/sustainable-textiles.jpg",
+      "impact": "100+ artisans employed"
+    },
+    {
+      "id": "children-nutrition",
+      "title": "Children's Nutrition & Education",
+      "category": "Community Welfare",
+      "description": "Ensuring every child in our partner communities has access to nutritious food, quality education, and a bright future.",
+      "longDescription": "Children are the future of any community. Our comprehensive program ensures that no child goes hungry or misses out on education due to poverty. We work with mothers to create nutritious, locally-sourced meal programs while supporting children's educational needs.",
+      "image": "/images/placeholder/children-nutrition.jpg",
+      "impact": "1000+ children receiving daily nutrition",
+      "features": [
+        "Daily nutritious meal programs",
+        "School supply distribution",
+        "After-school tutoring centers",
+        "Parent education workshops",
+        "Health and hygiene training",
+        "Scholarship programs for higher education"
+      ]
+    },
+    {
+      "id": "pet-products",
+      "title": "Ethical Pet Products",
+      "category": "Innovation",
+      "description": "Creating India's first tribal-made ethical pet product line, combining traditional crafts with modern pet care needs.",
+      "longDescription": "Our innovative pet products initiative creates unique livelihood opportunities while spreading compassion for all beings. Tribal artisans craft beautiful, eco-friendly pet beds, toys, and accessories using traditional techniques and sustainable materials.",
+      "image": "/images/placeholder/pet-products.jpg",
+      "impact": "First tribal pet product line in India",
+      "features": [
+        "Handcrafted pet beds and toys",
+        "100% natural and safe materials",
+        "Customized product designs",
+        "Urban market partnerships",
+        "Online sales platform",
+        "Pet care awareness programs"
+      ]
+    }
+  ],
+  "features": [
+    {
+      "icon": "🎯",
+      "title": "Targeted Approach",
+      "description": "We identify specific community needs and design programs that address root causes, not just symptoms."
+    },
+    {
+      "icon": "🤝",
+      "title": "Community Partnership",
+      "description": "Local communities are our partners, not beneficiaries. We co-create solutions that work for them."
+    },
+    {
+      "icon": "📈",
+      "title": "Measurable Outcomes",
+      "description": "Every initiative is tracked and measured to ensure we're creating real, lasting change."
+    },
+    {
+      "icon": "♻️",
+      "title": "Sustainable Models",
+      "description": "Our programs are designed to be self-sustaining, creating long-term value for communities."
+    }
+  ],
+  "cta": {
+    "background": "accent",
+    "title": "Ready to Make a Difference?",
+    "text": "Join us in our mission to create lasting change in tribal communities.",
+    "buttons": [
+      { "to": "/get-involved/volunteer", "label": "Volunteer With Us", "variant": "primary" },
+      { "to": "/contribute", "label": "Support Our Work", "variant": "secondary" }
     ]
   }
+}

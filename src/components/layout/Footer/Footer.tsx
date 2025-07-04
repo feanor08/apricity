@@ -14,13 +14,14 @@ const Footer = () => {
             <h3>{organization.name}</h3>
             <p>{organization.tagline}</p>
             <div className="social-links">
-              <a href={organization.socialMedia.facebook} aria-label="Facebook">FB</a>
-              <a href={organization.socialMedia.twitter} aria-label="Twitter">TW</a>
-              <a href={organization.socialMedia.instagram} aria-label="Instagram">IG</a>
-              <a href={organization.socialMedia.linkedin} aria-label="LinkedIn">LI</a>
+              {organization.socialLinks.map((link, idx) => (
+                <a key={idx} href={link.url} aria-label={link.ariaLabel}>
+                  {link.label}
+                </a>
+              ))}
             </div>
           </div>
-          
+
           {navigationData.footer.sections.map((section, index) => (
             <div key={index} className="footer-section">
               <h4>{section.title}</h4>
@@ -34,10 +35,13 @@ const Footer = () => {
             </div>
           ))}
         </div>
-        
+
         <div className="footer-bottom">
-          <p>&copy; 2024 {organization.name}. All rights reserved.</p>
-          <p>Contact: {organization.email} | {organization.phone}</p>
+          <p>{organization.copyrightText}</p>
+          <p>
+            {organization.contactLabel}{' '}
+            {organization.email} | {organization.phone}
+          </p>
         </div>
       </div>
     </footer>

@@ -1,30 +1,19 @@
 import Hero from '../components/common/Hero/Hero';
-// import Section from '../components/common/Section/Section';
+import aboutData from '../data/aboutus.json';
 
 const AboutUs = () => {
+  const { hero } = aboutData.aboutUs;
+
   return (
     <>
       <Hero
-        title="About Us"
-        subtitle="       We began with a single conviction: tribal women deserve work that sustains both their families and
-their heritage. In villages where ancient weaving songs were fading and textile waste piled high, we
-saw an opportunity to rewrite the tune. So we launched Apricity Life Foundation—a grassroots NGO
-that intercepts discarded cloth, revives ancestral crafts, and channels the profits straight into the
-hands of the women who create each piece.
-turning what the world called waste into fair wages, school fees, and newfound confidence. Every
-upcycled toy, pet bed, or hand-dyed fabric we ship is more than a product; it’s proof that when tribal
-women lead the value chain, whole communities rise. Join us as we weave sustainable income into
-every thread—and empowerment into every life we touch."
-        backgroundImage="/images/placeholder/about-hero.jpg"
+        title={hero.title}
+        subtitle={hero.subtitle}
+        backgroundImage={hero.backgroundImage}
       />
-      
-      {/* <Section>
-        <p style={{ fontSize: '1.125rem', textAlign: 'center' }}>
- 
-        </p>
-      </Section> */}
     </>
   );
 };
 
 export default AboutUs;
+

@@ -36,7 +36,7 @@ const InitiativeDetail = () => {
 
             <h3>Key Features</h3>
             <ul className="features-list">
-              {initiative.features.map((feature, index) => (
+              {initiative.features?.map((feature, index) => (
                 <li key={index}>{feature}</li>
               ))}
             </ul>

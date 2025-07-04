@@ -8,7 +8,10 @@ const CTASection = () => {
   const { joinMovement } = homeData.home;
 
   return (
-    <Section title={joinMovement.title} background="white" className="cta-section">
+    <Section
+      title={joinMovement.title}
+      className="cta-section"
+    >
       <div className="cta-grid">
         {joinMovement.items.map((item, index) => (
           <Card
@@ -21,8 +24,10 @@ const CTASection = () => {
         ))}
       </div>
       <div className="cta-button-wrapper">
-        <Button to="/get-involved" className="cta-button">Get Started</Button>
-        <p className="cta-subtext">Join us in making a difference today</p>
+        <Button to={joinMovement.buttonLink} className="cta-button">
+          {joinMovement.buttonText}
+        </Button>
+        <p className="cta-subtext">{joinMovement.subtext}</p>
       </div>
     </Section>
   );
