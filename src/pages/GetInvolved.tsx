@@ -26,7 +26,6 @@ const GetInvolved = () => {
             <Link key={idx} to={opt.path} style={{ textDecoration: 'none' }}>
               <Card
                 title={opt.title}
-                description={opt.description}
               />
             </Link>
           ))}

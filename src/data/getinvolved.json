@@ -1,39 +1,39 @@
 {
-    "hero": {
-      "title": "Join The Movement",
-      "subtitle": "Be part of something warm, real, and rooted. At Apricity Life Foundation, change isn’t something we do alone. It’s a collective effort — made possible by thoughtful individuals, ethical brands, creative minds, and compassionate communities. There are many ways to be part of our story. Choose the one that speaks to you.",
-      "backgroundImage": "/images/placeholder/get-involved-hero.jpg"
+  "hero": {
+    "title": "Join The Movement",
+    "subtitle": "Be part of something warm, real, and rooted. At Apricity Life Foundation, change isn’t something we do alone. It’s a collective effort — made possible by thoughtful individuals, ethical brands, creative minds, and compassionate communities. There are many ways to be part of our story. Choose the one that speaks to you.",
+    "backgroundImage": "/images/placeholder/get-involved-hero.jpg"
+  },
+  "options": [
+    {
+      "title": "Collection Camps",
+      "description": "Gather your preloved saris, surplus yardage, or mill off-cuts at our seasonal Collection Camps. Our crew sorts, sanitizes, and passes every usable piece to skilled tribal artisans who transform scraps into hand-stitched toys, pet beds, and naturally dyed fabrics. Each metre diverted from landfill becomes a sustainable product and a day’s dignified wage created locally. Donate cloth, host a camp, or simply spread the word—together we keep resources circling and ancestral skills bright for future generations worldwide.",
+      "path": "/get-involved/collection-camps"
     },
-    "options": [
-      {
-        "title": "Collection Camps",
-        "description": "Gather your preloved saris, surplus yardage, or mill off-cuts at our seasonal Collection Camps. Our crew sorts, sanitizes, and passes every usable piece to skilled tribal artisans who transform scraps into hand-stitched toys, pet beds, and naturally dyed fabrics. Each metre diverted from landfill becomes a sustainable product and a day’s dignified wage created locally. Donate cloth, host a camp, or simply spread the word—together we keep resources circling and ancestral skills bright for future generations worldwide.",
-        "path": "/get-involved/collection-camps"
-      },
-      {
-        "title": "Dropping Centers",
-        "description": "Too busy to reach a camp? Visit your nearest Dropping Centre, book a workplace pickup, or sign up for a volunteer sorting shift. Friendly staff weigh, record, and route every donation into our circular production chain, ensuring nothing usable is wasted. From single swatches to bulk warehouse rolls, each bundle supports tribal artisans and reduces landfill pressure. Bring textiles, bring colleagues, bring curiosity—whichever path you choose, you join a community to keep cloth circulating responsibly today, tomorrow, and always.",
-        "path": "/get-involved/dropping-centers"
-      },
-      {
-        "title": "Volunteer",
-        "description": "Turn passion into progress at our monthly Circular Innovation Labs. Volunteers, artisans, and sustainability experts co-design ways to transform textile waste into high-impact products. Choose hands-on weekend sessions sorting and prepping cloth, run Skill-Share Sprints on digital marketing or finance, or join 24-hour Impact Hackathons inventing simple tech for village workshops. Every spark you add slashes landfill waste, grows rural incomes, and spreads practices worldwide. Sign up, show up, and let innovation begin this weekend.",
-        "path": "/get-involved/volunteer"
-      },
-      {
-        "title": "Partner With Us",
-        "description": "Together, we build better systems. If you’re a designer sourcing responsibly, an NGO amplifying rural voices, or a conscience-driven brand, let’s partner. Co-create circular textile collections, host capacity-building workshops, or pilot grassroots production models that uplift artisans and enrich the planet. We share open data, fair value chains, and transparent impact metrics, ensuring collaboration benefits every stakeholder. Dream bold and join us—because weaving collective strength today shapes regenerative industries tomorrow, keeping skills alive locally for generations.",
-        "path": "/get-involved/partner"
-      },
-      {
-        "title": "Career",
-        "description": "At Apricity Life Foundation, daily work braids purpose and profit. You’ll spark dignified livelihoods, revive heritage crafts, and lighten the planet’s load—often before lunch. We’re hiring Community Program Leads, Field Coordinators, Circular Product and Textile Designers, Natural-Dye Trainers, Impact-Fundraising Specialists, and Digital Storytelling and E-commerce Managers. If your specialty isn’t listed, pitch us how it fits the mission. Join us and weave commerce with compassion into supply chains powering rural prosperity across communities we touch together.",
-        "path": "/get-involved/career"
-      },
-      {
-        "title": "Internship",
-        "description": "Step beyond the classroom and into living laboratories of circular design. Our internships welcome students and recent graduates from any discipline to map textile-waste streams, prototype upcycled products, or launch storytelling campaigns that champion artisan voices. You’ll gain field immersion in partner villages, weekly mentorship sessions, and clinics on natural dyeing, impact measurement, and ethical supply chains. Present outcomes at the Circular Innovation Lab—standout concepts enter production, boosting artisan incomes and shrinking landfills while expanding your professional values.",
-        "path": "/get-involved/internship"
-      }
-    ]
-  }
+    {
+      "title": "Dropping Centers",
+      "description": "Too busy to reach a camp? Visit your nearest Dropping Centre, book a workplace pickup, or sign up for a volunteer sorting shift. Friendly staff weigh, record, and route every donation into our circular production chain, ensuring nothing usable is wasted. From single swatches to bulk warehouse rolls, each bundle supports tribal artisans and reduces landfill pressure. Bring textiles, bring colleagues, bring curiosity—whichever path you choose, you join a community to keep cloth circulating responsibly today, tomorrow, and always.",
+      "path": "/get-involved/dropping-centers"
+    },
+    {
+      "title": "Volunteer",
+      "description": "Turn passion into progress at our monthly Circular Innovation Labs. Volunteers, artisans, and sustainability experts co-design ways to transform textile waste into high-impact products. Choose hands-on weekend sessions sorting and prepping cloth, run Skill-Share Sprints on digital marketing or finance, or join 24-hour Impact Hackathons inventing simple tech for village workshops. Every spark you add slashes landfill waste, grows rural incomes, and spreads practices worldwide. Sign up, show up, and let innovation begin this weekend.",
+      "path": "/get-involved/volunteer"
+    },
+    {
+      "title": "Partner With Us",
+      "description": "Together, we build better systems. If you’re a designer sourcing responsibly, an NGO amplifying rural voices, or a conscience-driven brand, let’s partner. Co-create circular textile collections, host capacity-building workshops, or pilot grassroots production models that uplift artisans and enrich the planet. We share open data, fair value chains, and transparent impact metrics, ensuring collaboration benefits every stakeholder. Dream bold and join us—because weaving collective strength today shapes regenerative industries tomorrow, keeping skills alive locally for generations.",
+      "path": "/get-involved/partner"
+    },
+    {
+      "title": "Career",
+      "description": "At Apricity Life Foundation, daily work braids purpose and profit. You’ll spark dignified livelihoods, revive heritage crafts, and lighten the planet’s load—often before lunch. We’re hiring Community Program Leads, Field Coordinators, Circular Product and Textile Designers, Natural-Dye Trainers, Impact-Fundraising Specialists, and Digital Storytelling and E-commerce Managers. If your specialty isn’t listed, pitch us how it fits the mission. Join us and weave commerce with compassion into supply chains powering rural prosperity across communities we touch together.",
+      "path": "/get-involved/career"
+    },
+    {
+      "title": "Internship",
+      "description": "Step beyond the classroom and into living laboratories of circular design. Our internships welcome students and recent graduates from any discipline to map textile-waste streams, prototype upcycled products, or launch storytelling campaigns that champion artisan voices. You’ll gain field immersion in partner villages, weekly mentorship sessions, and clinics on natural dyeing, impact measurement, and ethical supply chains. Present outcomes at the Circular Innovation Lab—standout concepts enter production, boosting artisan incomes and shrinking landfills while expanding your professional values.",
+      "path": "/get-involved/internship"
+    }
+  ]
+}

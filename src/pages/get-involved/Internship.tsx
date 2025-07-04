@@ -1,22 +1,48 @@
+
+// src/pages/Internship.tsx
 import Hero from '../../components/common/Hero/Hero';
 import Section from '../../components/common/Section/Section';
+import Card from '../../components/common/Card/Card';
+import getInvolvedData from '../../data/getinvolved.json';
 
 const Internship = () => {
+  const { options } = getInvolvedData;
+  const internship = options[5];
+
+  // split the description into sentences for bullets
+  const bullets = internship.description
+    .split('. ')
+    .map(s => s.trim().replace(/\.$/, ''))
+    .filter(Boolean);
+
   return (
     <>
       <Hero
-        title="Internship Program"
-        subtitle="Learn, grow, and contribute"
+        title={internship.title}
         backgroundImage="/images/placeholder/internship-hero.jpg"
       />
-      
+
       <Section>
-        <p style={{ fontSize: '1.125rem', textAlign: 'center' }}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        </p>
+        <div
+          style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+            gap: '2rem',
+            marginTop: '2rem'
+          }}
+        >
+          <Card title={"Learn, grow, and contribute"}>
+            <ul className="internship-description-list">
+              {bullets.map((line, i) => (
+                <li key={i}>{line}.</li>
+              ))}
+            </ul>
+          </Card>
+        </div>
       </Section>
     </>
   );
 };
 
 export default Internship;
+
