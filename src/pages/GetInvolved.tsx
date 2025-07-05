@@ -11,7 +11,7 @@ const GetInvolved = () => {
     <>
       <Hero
         title={hero.title}
-        subtitle={hero.subtitle}
+        description={hero.subtitle}
         backgroundImage={hero.backgroundImage}
       />
 
