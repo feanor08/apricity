@@ -3,7 +3,7 @@
     "title": "Our Impact",
     "subtitle": "Follow / Stay tuned to see / feel our impact",
     "description": "",
-    "backgroundImage": "/images/placeholder/impact-hero.jpg"
+    "backgroundImage": "/images/impact-hero.webp"
   },
   "statistics": [
     {
@@ -49,7 +49,7 @@
       "title": "From Homemaker to Entrepreneur",
       "author": "Lakshmi, Tribal Artisan",
       "content": "Before joining Apricity's training program, I had never imagined I could earn my own income. Today, I run a small business making eco-friendly toys and bags. I employ 5 other women from my village. My children now go to a good school, and I've been able to renovate our home. The confidence I've gained is even more valuable than the money.",
-      "image": "/images/placeholder/story-1.jpg",
+      "image": "/images/story-1.webp",
       "date": "2024-01-15"
     },
     {
@@ -57,7 +57,7 @@
       "title": "Reviving Our Heritage",
       "author": "Kamala, Master Weaver",
       "content": "Our traditional weaving patterns were dying. Only a few elderly women knew the techniques, and young people weren't interested. Apricity helped us see the value in our heritage. They connected us with urban markets where people appreciate handmade products. Now, young women are eager to learn, and our craft will live on.",
-      "image": "/images/placeholder/story-2.jpg",
+      "image": "/images/story-2.webp",
       "date": "2024-02-20"
     },
     {
@@ -65,7 +65,7 @@
       "title": "A Village Transformed",
       "author": "Ravi, Village Leader",
       "content": "When Apricity first came to our village, we were skeptical. We had seen many organizations come and go. But they were different - they listened to us, involved us in planning, and stayed committed. Today, our women are earning, our children are studying, and we have basic healthcare. The entire atmosphere of our village has changed.",
-      "image": "/images/placeholder/story-3.jpg",
+      "image": "/images/story-3.webp",
       "date": "2024-03-10"
     },
     {
@@ -73,7 +73,7 @@
       "title": "Education Changes Everything",
       "author": "Priya, Student",
       "content": "My mother joined Apricity's program when I was 10. Before that, we struggled to afford school supplies. Now, not only can she pay for my education, but she's also saving for my college. She tells me I can become anything I want - a doctor, a teacher, or even run my own business like her. That hope means everything.",
-      "image": "/images/placeholder/story-4.jpg",
+      "image": "/images/story-4.webp",
       "date": "2024-04-05"
     }
   ],

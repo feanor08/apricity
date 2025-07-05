@@ -8,7 +8,7 @@ const Contribute = () => {
       <Hero
         title="Contribute"
         subtitle="Your support helps us create lasting change"
-        backgroundImage="/images/placeholder/contribute-hero.jpg"
+        backgroundImage="/images/contribute-hero.webp"
       />
       
       <Section>

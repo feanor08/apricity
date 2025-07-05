@@ -19,7 +19,7 @@ const Internship = () => {
     <>
       <Hero
         title={internship.title}
-        backgroundImage="/images/placeholder/internship-hero.jpg"
+        backgroundImage="/images/internship-hero.webp"
       />
 
       <Section>

@@ -17,7 +17,7 @@ const CollectionCamps = () => {
     <>
       <Hero
         title="Collection Camps"
-        backgroundImage="/images/placeholder/collection-hero.jpg"
+        backgroundImage="/images/collection-hero.webp"
       />
       
       <Section>

@@ -9,7 +9,7 @@
         "description": "Apricity Life Foundation is a grassroots initiative working with tribal women in  India. Our focus is on dignity-led development—where empowerment is not a handout, but the right to thrive through one's own hands.",
         "cta1": "Get Involved",
         "cta2": "Learn More",
-        "backgroundImage": "/images/placeholder/hero-bg.jpg",
+        "backgroundImage": "/images/hero-bg.webp",
         "ctaLinks": {
           "primary": "/get-involved",
           "secondary": "/about-us"
@@ -118,7 +118,7 @@
             "description": "Whether it's time, resources, or voice—you can help build an equal world."
           }
         ],
-        "background": "images/placeholder/hero-bg.jpg",
+        "background": "images/placeholder/hero-bg.webp",
         "buttonLink": "/get-involved",
         "buttonText": "Get Started",
         "subtext": "Join us in making a difference today"

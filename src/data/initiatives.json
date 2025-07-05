@@ -4,7 +4,7 @@
     "title": "Our Initiatives",
     "subtitle": "Transforming lives through sustainable development",
     "description": "We believe in creating lasting change through community-driven programs that empower, educate, and elevate.",
-    "backgroundImage": "/images/placeholder/initiatives-hero.jpg"
+    "backgroundImage": "/images/initiatives-hero.webp"
   },
   "intro": {
     "title": "Building a Better Tomorrow",
@@ -21,7 +21,7 @@
       "category": "Economic Development",
       "description": "Equipping tribal women with marketable skills in handicrafts, natural dyeing, tailoring, and toy-making. We create sustainable income pathways through our social enterprise model.",
       "longDescription": "Our Women Empowerment Program is at the heart of our mission. We work with tribal women to develop skills that are not just marketable but also culturally relevant. Through intensive training in traditional crafts, modern techniques, and business skills, we help women become entrepreneurs in their own right.",
-      "image": "/images/placeholder/women-empowerment.jpg",
+      "image": "/images/women-empowerment.webp",
       "impact": "1000+ women to be trained",
       "features": [
         "6-month comprehensive skill development program",
@@ -41,7 +41,7 @@
       "category": "Cultural Preservation",
       "description": "Preserving and reviving traditional tribal crafts including weaving, natural dyeing, bamboo work, and pottery. We ensure these ancient skills don't disappear.",
       "longDescription": "Our Heritage Crafts Revival initiative is a bridge between the past and the future. We work with master artisans to document, preserve, and teach traditional crafting techniques that have been passed down through generations. By creating market demand for these authentic products, we ensure these crafts remain economically viable.",
-      "image": "/images/placeholder/heritage-crafts.jpg",
+      "image": "/images/heritage-crafts.webp",
       "impact": "5 traditional crafts to be revived",
       "features": [
         "Documentation of traditional techniques",
@@ -62,7 +62,7 @@
       "category": "Community Welfare",
       "description": "Comprehensive development programs focusing on education, healthcare, infrastructure, and youth engagement to create thriving communities.",
       "longDescription": "True development happens when entire communities grow together. Our holistic approach addresses multiple aspects of community life - from children's education to healthcare access, from clean water to sustainable agriculture. We believe in creating an ecosystem where every family can thrive.",
-      "image": "/images/placeholder/community-dev.jpg",
+      "image": "/images/community-dev.webp",
       "impact": "20 villages to be transformed",
       "features": [
         "Children's education support centers",
@@ -83,7 +83,7 @@
       "category": "Economic Development",
       "description": "Building an ethical textile value chain from farm to fashion, creating sustainable livelihoods while protecting the environment.",
       "longDescription": "We're reimagining the textile industry by creating a completely ethical and sustainable value chain. From organic cotton farming to natural dyeing, from handloom weaving to eco-friendly packaging - every step creates employment while caring for our planet.",
-      "image": "/images/placeholder/sustainable-textiles.jpg",
+      "image": "/images/sustainable-textiles.webp",
       "impact": "100+ artisans to be employed"
     },
     {
@@ -92,7 +92,7 @@
       "category": "Community Welfare",
       "description": "Ensuring every child in our partner communities has access to nutritious food, quality education, and a bright future.",
       "longDescription": "Children are the future of any community. Our comprehensive program ensures that no child goes hungry or misses out on education due to poverty. We work with mothers to create nutritious, locally-sourced meal programs while supporting children's educational needs.",
-      "image": "/images/placeholder/children-nutrition.jpg",
+      "image": "/images/children-nutrition.webp",
       "impact": "1000+ children receiving daily nutrition",
       "features": [
         "Daily nutritious meal programs",
@@ -109,7 +109,7 @@
       "category": "Innovation",
       "description": "Creating India's first tribal-made ethical pet product line, combining traditional crafts with modern pet care needs.",
       "longDescription": "Our innovative pet products initiative creates unique livelihood opportunities while spreading compassion for all beings. Tribal artisans craft beautiful, eco-friendly pet beds, toys, and accessories using traditional techniques and sustainable materials.",
-      "image": "/images/placeholder/pet-products.jpg",
+      "image": "/images/pet-products.webp",
       "impact": "First tribal pet product line in India",
       "features": [
         "Handcrafted pet beds and toys",

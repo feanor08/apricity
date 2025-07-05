@@ -19,7 +19,7 @@ const DroppingCenters = () => {
     <>
       <Hero
         title={center.title}
-        backgroundImage="/images/placeholder/dropping-hero.jpg"
+        backgroundImage="/images/dropping-hero.webp"
       />
 
       <Section>

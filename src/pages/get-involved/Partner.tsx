@@ -19,7 +19,7 @@ const Partner = () => {
       <Hero
         title={partner.title}
         subtitle="Collaborate for greater impact"
-        backgroundImage="/images/placeholder/partner-hero.jpg"
+        backgroundImage="/images/partner-hero.webp"
       />
 
       <Section>

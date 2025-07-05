@@ -4,7 +4,7 @@
     "title": "Updates & News",
     "subtitle": "Stay connected with our journey",
     "description": "Get the latest news, stories, and updates from our work in tribal communities across South India.",
-    "backgroundImage": "/images/placeholder/updates-hero.jpg"
+    "backgroundImage": "/images/updates-hero.webp"
   },
   "featuredUpdate": {
     "id": "featured-1",
@@ -13,7 +13,7 @@
     "category": "Success Story",
     "author": "Team Apricity",
     "date": "2024-12-15",
-    "image": "/images/placeholder/featured-update.jpg",
+    "image": "/images/featured-update.webp",
     "content": "Full article content here..."
   },
   "newsletterSection": {
@@ -43,7 +43,7 @@
       "category": "Program Launch",
       "author": "Priya Sharma",
       "date": "2024-12-10",
-      "image": "/images/placeholder/update-1.jpg"
+      "image": "/images/update-1.webp"
     },
     {
       "id": "update-2",
@@ -52,7 +52,7 @@
       "category": "Partnership",
       "author": "Admin",
       "date": "2024-12-05",
-      "image": "/images/placeholder/update-2.jpg"
+      "image": "/images/update-2.webp"
     },
     {
       "id": "update-3",
@@ -61,7 +61,7 @@
       "category": "Impact Story",
       "author": "Meera Patel",
       "date": "2024-11-28",
-      "image": "/images/placeholder/update-3.jpg"
+      "image": "/images/update-3.webp"
     },
     {
       "id": "update-4",
@@ -70,7 +70,7 @@
       "category": "Success Story",
       "author": "Rajesh Kumar",
       "date": "2024-11-20",
-      "image": "/images/placeholder/update-4.jpg"
+      "image": "/images/update-4.webp"
     },
     {
       "id": "update-5",
@@ -79,7 +79,7 @@
       "category": "Event",
       "author": "Team Apricity",
       "date": "2024-11-15",
-      "image": "/images/placeholder/update-5.jpg"
+      "image": "/images/update-5.webp"
     },
     {
       "id": "update-6",
@@ -88,7 +88,7 @@
       "category": "Workshop",
       "author": "Sunita Rao",
       "date": "2024-11-10",
-      "image": "/images/placeholder/update-6.jpg"
+      "image": "/images/update-6.webp"
     },
     {
       "id": "update-7",
@@ -97,7 +97,7 @@
       "category": "Community",
       "author": "Dr. Arun Mehta",
       "date": "2024-11-05",
-      "image": "/images/placeholder/update-7.jpg"
+      "image": "/images/update-7.webp"
     },
     {
       "id": "update-8",
@@ -106,7 +106,7 @@
       "category": "Impact Story",
       "author": "Anita Desai",
       "date": "2024-10-30",
-      "image": "/images/placeholder/update-8.jpg"
+      "image": "/images/update-8.webp"
     },
     {
       "id": "update-9",
@@ -115,7 +115,7 @@
       "category": "Program Launch",
       "author": "Team Apricity",
       "date": "2024-10-25",
-      "image": "/images/placeholder/update-9.jpg"
+      "image": "/images/update-9.webp"
     }
   ],
   "upcomingEventsSection": {
