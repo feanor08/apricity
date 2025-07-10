@@ -10,6 +10,7 @@
         "cta1": "Get Involved",
         "cta2": "Learn More",
         "backgroundImage": "/images/hero-bg.webp",
+        "mobileImage": "/images/hero-bg-mobile.webp",
         "ctaLinks": {
           "primary": "/get-involved",
           "secondary": "/about-us"

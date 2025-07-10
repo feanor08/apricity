@@ -4,7 +4,8 @@
     "title": "Updates & News",
     "subtitle": "Stay connected with our journey",
     "description": "Get the latest news, stories, and updates from our work in tribal communities across South India.",
-    "backgroundImage": "/images/updates-hero.webp"
+    "backgroundImage": "/images/updates-hero.webp",
+     "mobileImage": "/images/updates-hero-mobile.webp"
   },
   "featuredUpdate": {
     "id": "featured-1",
