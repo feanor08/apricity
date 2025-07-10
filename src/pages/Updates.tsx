@@ -35,6 +35,7 @@ const Updates = () => {
         subtitle={hero.subtitle}
         description={hero.description}
         backgroundImage={hero.backgroundImage}
+        mobileImage={hero.mobileImage}
       />
 
       <Section className="featured-section">

@@ -20,6 +20,7 @@ const Partner = () => {
         title={partner.title}
         subtitle="Collaborate for greater impact"
         backgroundImage="/images/partner-hero.webp"
+        mobileImage="/images/partner-hero-mobile.webp"
       />
 
       <Section>

@@ -20,6 +20,7 @@ const Internship = () => {
       <Hero
         title={internship.title}
         backgroundImage="/images/internship-hero.webp"
+        mobileImage="/images/internship-hero-mobile.webp"
       />
 
       <Section>

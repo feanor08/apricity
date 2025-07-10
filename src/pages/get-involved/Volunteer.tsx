@@ -20,6 +20,7 @@ const Volunteer = () => {
       <Hero
         title={volunteer.title}
         backgroundImage="/images/volunteer-hero.webp"
+        mobileImage="/images/volunteer-hero-mobile.webp"
       />
 
       <Section>

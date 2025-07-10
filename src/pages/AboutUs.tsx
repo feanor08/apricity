@@ -11,6 +11,7 @@ const AboutUs = () => {
         title={hero.title}
         description={hero.subtitle}
         backgroundImage={hero.backgroundImage}
+        mobileImage={hero.mobileImage}
       />
 
       <Section title={missionVision.title} className="mission-vision-section">

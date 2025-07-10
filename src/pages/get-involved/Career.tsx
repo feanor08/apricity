@@ -19,6 +19,7 @@ const Career = () => {
       <Hero
         title={career.title}
         backgroundImage="/images/career-hero.webp"
+        mobileImage="/images/career-hero-mobile.webp"
       />
 
       <Section>

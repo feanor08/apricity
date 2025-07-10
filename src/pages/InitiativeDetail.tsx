@@ -20,6 +20,7 @@ const InitiativeDetail = () => {
         title={initiative.title}
         subtitle={initiative.category}
         backgroundImage={initiative.image}
+        mobileImage={initiativesData.hero.mobileImage}
       />
 
       <Section className="initiative-detail">
