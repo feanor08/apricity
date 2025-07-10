@@ -1,37 +1,49 @@
 /* ---------- base ---------- */
 .hero {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 4rem 0;
-    color: var(--color-on-hero, #fff);
-    text-align: center;
-    overflow: hidden;               /* keeps overlay inside */
-  }
-  
-  /* ---------- size modifiers ---------- */
-  .hero--full    { min-height: 100vh; }   /* landing page */
-  .hero--compact { min-height: 42vh;  }   /* content pages */
-  
-  /* ---------- overlay tint ---------- */
-  .hero-overlay {
-    position: absolute;
-    inset: 0;
-    background: var(--color-primary-700, #8b5a35);  /* tweak hue here */
-    opacity: 0.25;
-    z-index: 0;                /* sits *behind* real content */
-    pointer-events: none;
-  }
-  
-  /* ---------- stack hero text above overlay ---------- */
-  .hero-content {
-    position: relative;
-    z-index: 1;
-  }
-  
-  /* ---------- typography (optional) ---------- */
-  .hero-title    { font-size: clamp(2.5rem, 6vw, 4rem); margin: 0 0 0.5em; }
-  .hero-subtitle { font-size: clamp(1.5rem, 3vw, 2rem); margin: 0 0 0.5em; }
-  .hero-description { max-width: 60ch; margin: 0 auto; }
-  
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 0;
+  color: var(--color-on-hero, #fff);
+  text-align: center;
+  overflow: hidden;                /* keeps children inside */
+}
+
+/* height variants */
+.hero--full    { min-height: 100vh; }
+.hero--compact { min-height: 42vh;  }
+
+/* ---------- responsive background ---------- */
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;                      /* bottom layer */
+}
+
+.hero-bg-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;               /* fill & crop */
+}
+
+/* ---------- overlay tint ---------- */
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: var(--color-primary-700, #8b5a35);
+  opacity: 0.25;
+  z-index: 1;                      /* above image, below text */
+  pointer-events: none;
+}
+
+/* ---------- stacked content ---------- */
+.hero-content {
+  position: relative;
+  z-index: 2;                      /* topmost */
+}
+
+/* ---------- typography ---------- */
+.hero-title       { font-size: clamp(2.5rem, 6vw, 4rem); margin: 0 0 0.5em; }
+.hero-subtitle    { font-size: clamp(1.5rem, 3vw, 2rem); margin: 0 0 0.5em; }
+.hero-description { max-width: 60ch; margin: 0 auto; }
