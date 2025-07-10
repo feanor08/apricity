@@ -9,6 +9,7 @@ const Contribute = () => {
         title="Contribute"
         subtitle="Your support helps us create lasting change"
         backgroundImage="/images/contribute-hero.webp"
+        mobileImage="/images/contribute-hero-mobile.webp"
       />
       
       <Section>
