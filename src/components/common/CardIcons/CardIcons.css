@@ -1,0 +1,13 @@
+/* src/styles/CardIcons.css */
+.card-icon {
+    display: inline-block;
+    line-height: 0;        /* kill inline‐img whitespace */
+  }
+  
+  .card-icon img,
+  .card-icon svg {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;   /* protect aspect ratio */
+  }
+  
