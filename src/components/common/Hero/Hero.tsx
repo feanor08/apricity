@@ -5,12 +5,12 @@ interface HeroProps {
   title: string;
   subtitle?: string;
   description?: string;
-  /** ≥ 641 px viewport */
   backgroundImage: string;
-  /** ≤ 640 px viewport (portrait-ish, lighter) */
-  mobileImage?: string;
+  mobileImage: string;
   /** tint overlay on/off */
   overlay?: boolean;
+  /** add a soft background blur */
+  blur?: boolean;               // ← NEW
   /** 100 vh landing banner or ~40 vh header */
   size?: 'full' | 'compact';
   children?: ReactNode;
@@ -24,16 +24,17 @@ const Hero = ({
   backgroundImage,
   mobileImage,
   overlay = true,
+  blur = false,                 // default = no blur
   size = 'compact',
   children,
   className = '',
 }: HeroProps) => (
   <section className={`hero hero--${size} ${className}`}>
-    {/* responsive background image */}
-    <picture className="hero-bg">
+    {/* responsive background */}
+    <picture className={`hero-bg${blur ? ' hero-bg--blur' : ''}`}>
       <source srcSet={backgroundImage} media="(min-width: 641px)" />
-      {/* `aria-hidden` prevents SR from announcing a decorative image  */}
-      <img src={mobileImage} alt="" aria-hidden="true" className="hero-bg-img" />
+      <source srcSet={mobileImage}  media="(max-width: 640px)" />
+      <img src={backgroundImage} alt="" aria-hidden="true" className="hero-bg-img" />
     </picture>
 
     {overlay && <div className="hero-overlay" />}

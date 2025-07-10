@@ -2,36 +2,23 @@ import Button from '../../common/Button/Button';
 import homeData from '../../../data/home.json';
 import './HeroSection.css';
 
-/**
- * Hero section with <picture> element.
- * Browser selects the first <source> whose media query matches
- * BEFORE downloading — saves data and prevents flashes.
- */
 const HeroSection = () => {
   const { hero } = homeData.home;
 
-  // fallback if one of the images is missing in the JSON
-  const desktopImg = hero.backgroundImage ;
-  const mobileImg  = hero.mobileImage ;
+  // fallbacks if JSON is missing one of the assets
+  const desktopImg = hero?.backgroundImage ?? hero?.backgroundImage;
+  const mobileImg  = hero?.mobileImage  ?? hero?.backgroundImage;
 
   return (
     <section className="hero-section">
-      {/* responsive background layer */}
-      <picture className="hero-bg">
-        {/* desktop / landscape first */}
+      {/* responsive background layer (always carries blur-eligible class) */}
+      <picture className="hero-bg hero-bg--blur">
         <source srcSet={desktopImg} media="(min-width: 641px)" />
-        {/* mobile / portrait second */}
-        <source srcSet={mobileImg} media="(max-width: 640px)" />
-        {/* final <img> is just a safety net */}
-        <img
-          src={desktopImg}
-          alt=""
-          aria-hidden="true"
-          className="hero-bg-img"
-        />
+        <source srcSet={mobileImg}  media="(max-width: 640px)" />
+        <img src={desktopImg} alt="" aria-hidden="true" className="hero-bg-img" />
       </picture>
 
-      {/* tint overlay */}
+      {/* tint overlay — keep or drop as you like */}
       <div className="hero-overlay" />
 
       {/* foreground content */}

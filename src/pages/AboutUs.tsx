@@ -11,6 +11,7 @@ const AboutUs = () => {
         title={hero.title}
         description={hero.subtitle}
         backgroundImage={hero.backgroundImage}
+        blur
         mobileImage={hero.mobileImage}
       />
 

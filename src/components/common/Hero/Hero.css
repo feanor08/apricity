@@ -21,6 +21,16 @@
   z-index: 0;                      /* bottom layer */
 }
 
+
+/* blur ONLY below 641 px */
+@media (max-width: 640px) {
+  .hero-bg--blur {
+    filter: blur(8px);
+    transform: scale(1.06);   /* expand so blurred edges stay covered */
+  }
+}
+
+
 .hero-bg-img {
   width: 100%;
   height: 100%;
