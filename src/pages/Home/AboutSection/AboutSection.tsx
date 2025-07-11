@@ -1,7 +1,8 @@
-import Section from '../../common/Section/Section';
-import Quote from '../../common/Quote/Quote';
+
+import Section from '@/components/common/Section/Section';
 import homeData from '../../../data/home.json';
 import './AboutSection.css';
+import Quote from '@/components/common/Quote/Quote';
 
 const AboutSection = () => {
   const { about } = homeData.home;

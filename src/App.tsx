@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Layout from './components/layout/Layout/Layout'
-import Home from './pages/Home'
+import Home from './pages/Home/Home'
 import Initiatives from './pages/Initiatives/Initiatives'
 import Impact from './pages/Impact/Impact'
 import GetInvolved from './pages/GetInvolved/GetInvolved'

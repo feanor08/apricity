@@ -1,16 +1,15 @@
 import { ReactNode } from 'react';
 import './ImageCard.css';
 
-interface CardProps {
+interface ImageCardProps {
   title?: string;
   description?: string;
-  icon?: string;
   image?: string;
   children?: ReactNode;
   className?: string;
 }
 
-const Card = ({ title, description, icon, image, children, className = '' }: CardProps) => {
+const ImageCard = ({ title, description, image, children, className = '' }: ImageCardProps) => {
   return (
     <div className={`card ${className}`}>
       {image && (
@@ -19,7 +18,6 @@ const Card = ({ title, description, icon, image, children, className = '' }: Car
         </div>
       )}
       <div className="card-content">
-        {icon && <div className="card-icon">{icon}</div>}
         {title && <h3 className="card-title">{title}</h3>}
         {description && <p className="card-description">{description}</p>}
         {children}
@@ -28,4 +26,4 @@ const Card = ({ title, description, icon, image, children, className = '' }: Car
   );
 };
 
-export default Card;
+export default ImageCard;
