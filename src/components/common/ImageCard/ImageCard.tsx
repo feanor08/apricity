@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-import './Card.css';
+import './ImageCard.css';
 
 interface CardProps {
   title?: string;

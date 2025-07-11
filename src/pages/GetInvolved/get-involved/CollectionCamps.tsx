@@ -1,7 +1,7 @@
 import Hero from '../../../components/common/Hero/Hero';
 import Section from '../../../components/common/Section/Section';
 import getInvolvedData from '../../../data/getinvolved.json';
-import Card from '@/components/common/Card/Card';
+import Card from '@/components/common/ImageCard/ImageCard';
 
 const CollectionCamps = () => {
   const { options } = getInvolvedData;

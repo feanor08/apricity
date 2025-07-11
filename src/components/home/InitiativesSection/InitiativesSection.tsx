@@ -1,5 +1,5 @@
 import Section from '../../common/Section/Section';
-import Card from '../../common/Card/Card';
+import Card from '../../common/ImageCard/ImageCard';
 import homeData from '../../../data/home.json';
 import './InitiativesSection.css';
 
