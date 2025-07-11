@@ -1,9 +1,9 @@
 import { useState } from 'react';
-import Hero from '../components/common/Hero/Hero';
-import Section from '../components/common/Section/Section';
-import Card from '../components/common/Card/Card';
-import Button from '../components/common/Button/Button';
-import data from '../data/initiatives.json';
+import Hero from '../../components/common/Hero/Hero';
+import Section from '../../components/common/Section/Section';
+import Card from '../../components/common/Card/Card';
+import Button from '../../components/common/Button/Button';
+import data from '../../data/initiatives.json';
 import './Initiatives.css';
 
 const Initiatives = () => {

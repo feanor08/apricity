@@ -1,6 +1,6 @@
-import Hero from '../../components/common/Hero/Hero';
-import Section from '../../components/common/Section/Section';
-import getInvolvedData from '../../data/getinvolved.json';
+import Hero from '../../../components/common/Hero/Hero';
+import Section from '../../../components/common/Section/Section';
+import getInvolvedData from '../../../data/getinvolved.json';
 import Card from '@/components/common/Card/Card';
 
 const CollectionCamps = () => {

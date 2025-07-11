@@ -1,6 +1,6 @@
-import Hero from '../components/common/Hero/Hero';
-import Section from '../components/common/Section/Section';
-import aboutData from '../data/aboutus.json';
+import Hero from '../../components/common/Hero/Hero';
+import Section from '../../components/common/Section/Section';
+import aboutData from '../../data/aboutus.json';
 
 const AboutUs = () => {
   const { hero, missionVision, values, principles } = aboutData.aboutUs;

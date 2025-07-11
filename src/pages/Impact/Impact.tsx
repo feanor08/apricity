@@ -1,5 +1,5 @@
-import Hero from '../components/common/Hero/Hero';
-import impactData from '../data/impact.json';
+import Hero from '../../components/common/Hero/Hero';
+import impactData from '../../data/impact.json';
 import './Impact.css';
 
 const Impact = () => {

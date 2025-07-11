@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
-import Hero from '../components/common/Hero/Hero';
-import Section from '../components/common/Section/Section';
-import Card from '../components/common/Card/Card';
-import getInvolvedData from '../data/getinvolved.json';
+import Hero from '../../components/common/Hero/Hero';
+import Section from '../../components/common/Section/Section';
+import Card from '../../components/common/Card/Card';
+import getInvolvedData from '../../data/getinvolved.json';
 
 const GetInvolved = () => {
   const { hero, options } = getInvolvedData;

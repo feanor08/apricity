@@ -1,0 +1,18 @@
+{
+  "hero": {
+    "title": "Contribute",
+    "subtitle": "Your support helps us create lasting change",
+    "backgroundImage": "/images/contribute-hero.webp",
+    "mobileImage": "/images/contribute-hero-mobile.webp"
+  },
+  "donationSection": {
+    "description": "Your contribution enables us to create meaningful impact across communities. Please find our bank details below to make a donation.",
+    "bankDetails": {
+      "accountName": "Apricity Life Foundation",
+      "address": "No 473/D, 15th Cross, Ideal Homes, Rajarajeshwari Nagar, Karnataka, India",
+      "accountNumber": "925020028472544",
+      "ifsc": "UTIB0001770",
+      "bankName": "Axis Bank"
+    }
+  }
+}

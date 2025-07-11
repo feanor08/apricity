@@ -1,9 +1,9 @@
 import { useParams, Navigate } from 'react-router-dom';
-import Hero from '../components/common/Hero/Hero';
-import Section from '../components/common/Section/Section';
-import Button from '../components/common/Button/Button';
-import Quote from '../components/common/Quote/Quote';
-import initiativesData from '../data/initiatives.json';
+import Hero from '../../components/common/Hero/Hero';
+import Section from '../../components/common/Section/Section';
+import Button from '../../components/common/Button/Button';
+import Quote from '../../components/common/Quote/Quote';
+import initiativesData from '../../data/initiatives.json';
 import './InitiativeDetail.css';
 
 const InitiativeDetail = () => {
